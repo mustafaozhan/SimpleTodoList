@@ -58,13 +58,9 @@
 		5C29264C22DBAF0400B4B458 /* SimpleTodoList */ = {
 			isa = PBXGroup;
 			children = (
-				5C29264D22DBAF0400B4B458 /* AppDelegate.swift */,
-				5C29264F22DBAF0400B4B458 /* SceneDelegate.swift */,
+				5C29266522DBAF6900B4B458 /* App */,
+				5C29266422DBAF4900B4B458 /* Resources */,
 				5C29265422DBAF0400B4B458 /* ContentView.swift */,
-				5C29265622DBAF0500B4B458 /* Assets.xcassets */,
-				5C29265B22DBAF0500B4B458 /* LaunchScreen.storyboard */,
-				5C29265E22DBAF0500B4B458 /* Info.plist */,
-				5C29265122DBAF0400B4B458 /* SimpleTodoList.xcdatamodeld */,
 				5C29265822DBAF0500B4B458 /* Preview Content */,
 			);
 			path = SimpleTodoList;
@@ -76,6 +72,26 @@
 				5C29265922DBAF0500B4B458 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C29266422DBAF4900B4B458 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C29265622DBAF0500B4B458 /* Assets.xcassets */,
+				5C29265B22DBAF0500B4B458 /* LaunchScreen.storyboard */,
+				5C29265E22DBAF0500B4B458 /* Info.plist */,
+				5C29265122DBAF0400B4B458 /* SimpleTodoList.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C29266522DBAF6900B4B458 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C29264D22DBAF0400B4B458 /* AppDelegate.swift */,
+				5C29264F22DBAF0400B4B458 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SimpleTodoList/Preview\\ Content";
 				DEVELOPMENT_TEAM = 8MTR5SHZFD;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SimpleTodoList/Info.plist;
+				INFOPLIST_FILE = SimpleTodoList/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +328,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SimpleTodoList/Preview\\ Content";
 				DEVELOPMENT_TEAM = 8MTR5SHZFD;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SimpleTodoList/Info.plist;
+				INFOPLIST_FILE = SimpleTodoList/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
