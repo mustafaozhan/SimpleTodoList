@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  EditView.swift
 //  SimpleTodoList
 //
 //  Created by Mustafa Ozhan on 14/07/2019.
@@ -8,16 +8,16 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct EditView : View {
     var body: some View {
-        Text("Hello World")
+        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct EditView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        EditView()
     }
 }
 #endif
