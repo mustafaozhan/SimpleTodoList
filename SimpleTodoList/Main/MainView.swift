@@ -16,7 +16,14 @@ struct MainView : View {
     
     var body: some View {
         List {
-            TextField($draftTitle, placeholder: Text("Create a New Task"), onCommit: self.createTask)
+            HStack{
+                TextField($draftTitle, placeholder: Text("Create a New Task"))
+                Button(action: {
+                    self.createTask()
+                }) {
+                    Text("Add")
+                }
+            }
             ForEach(self.userData.tasks) { task in
                 ItemView(task: task, isEditing: self.$isEditing)
             }
