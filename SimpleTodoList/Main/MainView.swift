@@ -19,7 +19,7 @@ struct MainView : View {
         List {
             TextField($draftTitle, placeholder: Text("Create a New Task"), onCommit: self.createTask)
             ForEach(self.userData.tasks) { task in
-                ItemView(task: task)
+                ItemView(task: task, isEditting: self.$isEditing)
             }
             }
             .navigationBarTitle(Text("Tasks"))
