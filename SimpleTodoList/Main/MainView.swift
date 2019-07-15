@@ -10,7 +10,6 @@ import SwiftUI
 
 struct MainView : View {
     
-
     @EnvironmentObject var userData: UserData
     @State var draftTitle: String = ""
     @State var isEditing: Bool = false
@@ -19,7 +18,7 @@ struct MainView : View {
         List {
             TextField($draftTitle, placeholder: Text("Create a New Task"), onCommit: self.createTask)
             ForEach(self.userData.tasks) { task in
-                ItemView(task: task, isEditting: self.$isEditing)
+                ItemView(task: task, isEditing: self.$isEditing)
             }
             }
             .navigationBarTitle(Text("Tasks"))

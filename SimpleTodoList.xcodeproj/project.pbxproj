@@ -18,7 +18,7 @@
 		5C29267122DBB49700B4B458 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29267022DBB49700B4B458 /* UserData.swift */; };
 		5C29267322DBB4BA00B4B458 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29267222DBB4BA00B4B458 /* DefaultValues.swift */; };
 		5C29267722DBB50F00B4B458 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29267622DBB50F00B4B458 /* ItemView.swift */; };
-		5C29267B22DBB53F00B4B458 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29267A22DBB53F00B4B458 /* EditView.swift */; };
+		5CCE30E922DD135B0055C2E3 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE30E822DD135B0055C2E3 /* EditTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		5C29267022DBB49700B4B458 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		5C29267222DBB4BA00B4B458 /* DefaultValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultValues.swift; sourceTree = "<group>"; };
 		5C29267622DBB50F00B4B458 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
-		5C29267A22DBB53F00B4B458 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		5CCE30E822DD135B0055C2E3 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,6 @@
 				5C29266522DBAF6900B4B458 /* App */,
 				5C29266D22DBB3A900B4B458 /* Model */,
 				5C29267422DBB4C100B4B458 /* Main */,
-				5C29267822DBB51F00B4B458 /* Edit */,
 				5C29267522DBB4D700B4B458 /* Utils */,
 				5C29266422DBAF4900B4B458 /* Resources */,
 				5C29265822DBAF0500B4B458 /* Preview Content */,
@@ -121,6 +120,7 @@
 				5C29267022DBB49700B4B458 /* UserData.swift */,
 				5C29265422DBAF0400B4B458 /* MainView.swift */,
 				5C29267622DBB50F00B4B458 /* ItemView.swift */,
+				5CCE30E822DD135B0055C2E3 /* EditTaskView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -131,14 +131,6 @@
 				5C29267222DBB4BA00B4B458 /* DefaultValues.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		5C29267822DBB51F00B4B458 /* Edit */ = {
-			isa = PBXGroup;
-			children = (
-				5C29267A22DBB53F00B4B458 /* EditView.swift */,
-			);
-			path = Edit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +209,7 @@
 				5C29265022DBAF0400B4B458 /* SceneDelegate.swift in Sources */,
 				5C29267722DBB50F00B4B458 /* ItemView.swift in Sources */,
 				5C29267322DBB4BA00B4B458 /* DefaultValues.swift in Sources */,
-				5C29267B22DBB53F00B4B458 /* EditView.swift in Sources */,
+				5CCE30E922DD135B0055C2E3 /* EditTaskView.swift in Sources */,
 				5C29266F22DBB3BB00B4B458 /* Task.swift in Sources */,
 				5C29265522DBAF0400B4B458 /* MainView.swift in Sources */,
 				5C29265322DBAF0400B4B458 /* SimpleTodoList.xcdatamodeld in Sources */,
